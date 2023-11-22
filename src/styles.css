@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	-webkit-tap-highlight-color: transparent;
+	font-size: 62.5%;
+}
+
+.flatpickr-calendar {
+	position: static !important;
+}
+
+.checkTitle {
+	text-shadow: 0 2px 4px #00000040;
+}
+
+.domain {
+	display: none;
+}
+
+.tick > line {
+	display: none;
+}
+
+.tooltip.active {
+	opacity: 1;
+}
